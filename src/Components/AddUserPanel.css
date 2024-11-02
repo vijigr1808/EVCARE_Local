@@ -1,0 +1,95 @@
+.add-user-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Form Section */
+.form-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.form-section input, .form-section select {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.discard-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.apply-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Stats Section */
+.stats-section {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.user-stats, .fleet-stats {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.user-stats h3, .fleet-stats h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.user-stats p, .fleet-stats p {
+    margin: 5px 0;
+    font-size: 14px;
+}

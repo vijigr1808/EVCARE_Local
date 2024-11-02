@@ -1,0 +1,34 @@
+.fleet-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.fleet-management th, .fleet-management td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.fleet-management th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.fleet-management td {
+    background-color: #ffffff;
+}
+
+/* Unassigned and Disabled Fleets */
+.unassigned-disabled-fleets {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.unassigned-disabled-fleets div {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
