@@ -5,18 +5,22 @@
 }
 
 .fleet-management th, .fleet-management td {
-    border: 1px solid #ddd;
+    border: 1px solid #0b52df;
     padding: 10px;
     text-align: left;
 }
 
+.fleet-management button {
+    margin-right: 20px; /* Adjust the spacing as needed */
+  }
+  
 .fleet-management th {
-    background-color: #f2f2f2;
+    background-color: #0b52df;
     font-weight: bold;
 }
 
 .fleet-management td {
-    background-color: #ffffff;
+    background-color: #0b52df;
 }
 
 /* Unassigned and Disabled Fleets */
@@ -29,6 +33,6 @@
 .unassigned-disabled-fleets div {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
+    border: 1px solid #e40fae;
+    background-color: #1dcbd4;
 }

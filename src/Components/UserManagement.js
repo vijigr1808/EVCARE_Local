@@ -5,6 +5,9 @@ import "./UserManagement.css";
 function UserManagement() {
   return (
     <div className="user-management">
+      <Link to="/">
+                <button className="back-button">←</button>
+            </Link>
       <h2>User Management</h2>
       <div className="actions">
       <Link to="/adduser-panel">

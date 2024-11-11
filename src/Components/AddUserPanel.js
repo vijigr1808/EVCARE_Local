@@ -1,11 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './AddUserPanel.css';
 
 const AddUserPanel = () => {
     return (
         <div className="add-user-panel">
             <header className="header">
+            <Link to="/user-management">
                 <button className="back-button">←</button>
+            </Link>
                 <h2>Add User Panel</h2>
             </header>
             <div className="main-section">
